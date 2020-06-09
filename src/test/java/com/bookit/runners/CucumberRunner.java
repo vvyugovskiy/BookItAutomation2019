@@ -13,7 +13,7 @@ import java.util.concurrent.locks.StampedLock;
         plugin = {
                 "json:target/cucumber.json"
         },
-//        tags = "@create_student_3",
+        tags = "",
         dryRun = false
 )
 public class CucumberRunner {
