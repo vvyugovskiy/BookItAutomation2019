@@ -1,6 +1,7 @@
 @api @rooms
 Feature: Rooms
 
+  @BO4-129
   Scenario: 1. Verify that amount of rooms is equals to 18
     Given authorization token is provided for "teacher"
     And user accepts content type as "application/json"
